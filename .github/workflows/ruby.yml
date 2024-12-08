@@ -1,11 +1,11 @@
-name: Ruby Ruby
+name: Ruby
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  run_hello:
+  ruby:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
